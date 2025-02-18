@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: "docs"
+website:
+  title: "Douanpo Jean-Michel"
+  navbar:
+    left: 
+      - text: "Accueil"
+        file: index.qmd
+      - text: "Mon Portfolio"
+        file: portfolio.qmd
+      - text: "Voir CV"
+        file: cv.qmd
+      - text: "Astuces"
+        file: astuces.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jdouampo
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
+

@@ -1,0 +1,16 @@
+---
+title: "Douampo Jean-Michel"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jdouampo
+    - icon: github
+      text: Github
+      href: https://github.com/jdouampo
+
+---
+
+Plus de 10 ans d'expériences dans le management IT au sein des multinationales de service, de projet national et fort de mon expérience polyvalentes à service à valeur ajoutée m'ont permis d'appréhender de nombreux challenges au niveau de la qualité de services, de la gestion de projets, du délai, de la gestion des équipes. Ayant une expérience sous régionale en matière de gestion du IT et une expérience nationale en gestion de projet, je souhaite aujourd'hui rejoindre une équipe internationale afin d'élargir mon horizon et de mettre mes compétences au service de votre département IT

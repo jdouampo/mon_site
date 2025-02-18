@@ -1,0 +1,317 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    css: custom-styles/cv.css
+---
+
+```{=html}
+<div class="cv-container">
+    <header>
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Photo de profil" class="profile-picture">
+            <div class="header-content">
+                <h1>Jean-Michel DOUAMPO</h1>
+                <h2>Entrepreneur</h2>
+                <div class="contact-info">
+                    <div>
+                        <span>📧</span>
+                        <span>jmdouampo@gmail.com</span>
+                    </div>
+                    <div>
+                        <span>📱</span>
+                        <span>+225 050 649 7308</span>
+                    </div>
+                    <div>
+                        <span>🌐</span>
+                        <span>https://www.linkedin.com/in/jdouampo</span>
+                    </div>
+                    <div>
+                        <span>📍</span>
+                        <span>Abidjan, Cote d’Ivoire</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Professionnel expérimenté avec plus de 10 années d'expérience dans le management IT. Spécialisé en gestion du IT et  en gestion de projet. Passionné par la science de données.</p>
+    </header>
+    
+    <nav>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Tout afficher</button>
+            <button class="filter-btn" data-filter="experience">Expérience</button>
+            <button class="filter-btn" data-filter="education">Formation</button>
+            <button class="filter-btn" data-filter="skills">Compétences</button>
+            <button class="filter-btn" data-filter="projects">Missions</button>
+            <button class="filter-btn" data-filter="interests">Centres d'intérêt</button>
+        </div>
+    </nav>
+    
+    <main>
+        <section id="experience" class="section" data-category="experience">
+            <div class="section-header">
+                <h2>Expérience Professionnelle</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Digitech Developpement France</div>
+                        <div class="entry-subtitle">Consultant Support Projet – Etat Civil en Côte d’Ivoire</div>
+                        <div class="entry-date">Jan 2021 - Présent</div>
+                    </div>
+                    <div class="entry-content">
+                        <p>Rattaché à la direction de projet opérée par Digitech Development, je suis son relais auprès des intervenants locaux (intégrateur, client final etc.) dans le cadre du Projet de la Digitalisation de l'état civil en CI (Registre National des Personnes Physiques).</p>
+                        <ul>
+                            <li>Participation à la définition des procédures de support aux utilisateurs en collaboration avec Digitech Development France en préparation de la phase d'assistance technique</li>
+                            <li>Participation aux formations client en phase de pré-pilote et le cas échéant, réalisation des formations du personnel identifié par Digitech Development selon les plans de formations et support de formations fournis par les équipes de Digitech Development ou réalisées dans le cadre du projet</li>
+                            <li>Apporter une assistance aux équipes Digitech Development en France par un contact régulier (journalier ou à minima hebdomadaire) par téléphone ou par mail sur toute autres demandes nécessaire à la bonne réalisation du projet.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">IT Manager Service Management de Cote d'Ivoire, Serra Léone et Liberia)</div>
+                        <div class="entry-subtitle">DHL International CI</div>
+                        <div class="entry-date">Jan 2013 - Déc 2020</div>
+                    </div>
+                    <div class="entry-content">
+                        <p>Nous avons en charge la gestion de 3 pays (Cote d'Ivoire, Serra Léone et Liberia), responsable de la fourniture et de la gestion des ressources et services IT nécessaires à l’activité (Hardwares, OS, BD, Réseaux, applications métiers, ressources humaines, etc.) ; pilotage des projets faisant appel aux TIC ; veille technologique ; conseil technologique au SMT (Senior Manager Team).</p>
+                        <ul>
+                            <li>La gestion du réseau Informatique et veillez à la disponibilité de la Liaison</li>
+                            <li>Gestion du budget alloué à l’informatique</li>
+                            <li>Assurer le déploiement de nouvelles solutions techniques (software and hardware)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education" class="section" data-category="education">
+            <div class="section-header">
+                <h2>Formation</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Master Pro en Data Science – Econometrie – Statistique</div>
+                        <div class="entry-subtitle">INSSEDS</div>
+                        <div class="entry-date">2022 - 2023</div>
+                    </div>
+                    <div class="entry-content">
+                        <p>Le Master Pro en Data Science – Économétrie – Statistique est un programme pluridisciplinaire qui vise à former des professionnels capables de collecter, analyser et interpréter des données massives (big data) pour résoudre des problèmes complexes dans divers domaines tels que l'économie, la finance, le marketing ou les sciences sociales, Au cours de ce master, je me suis spécialisé dans les domaines du Machine Learning et Intelligence Artificielle et l'Économétrie Appliquée. j'ai mené plusieurs projets concrets qui ont renforcé mes compétences en data science et en économétrie. Parmi eux, la prédiction des prix immobiliers à l'aide de modèles de régression et de forêts aléatoires, ainsi que la segmentation de clients pour une entreprise de e-commerce en utilisant des techniques de clustering. J'ai également développé un dashboard interactif pour le suivi des indicateurs financiers, permettant une visualisation claire et en temps réel des données</p>
+                    </div>
+                </div>
+                
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Master 1 en Statistique Science de données</div>
+                        <div class="entry-subtitle">CNAM PARIS</div>
+                        <div class="entry-date">2019 - 2020</div>
+                    </div>
+                    <div class="entry-content">
+                        <p>Le Master 1 en Statistique et Science des Données est une formation qui combine des enseignements théoriques en statistique avec des applications pratiques en science des données. Les principaux axes de la formation incluent la maîtrise des méthodes statistiques descriptives et inférentielles, des tests d'hypothèses et des modèles probabilistes,Utilisation de langages de programmation (Python, R) et de logiciels statistiques (SAS, SPSS) pour l'analyse de données. Durant ce Master, j'ai mené plusieurs projets concrets qui ont renforcé mes compétences en statistique et en science des données. Parmi eux, l'analyse des données de santé pour identifier les facteurs influençant l'obésité, ainsi que la prédiction des résultats électoraux à l'aide de modèles de régression logistique. J'ai également développé un dashboard interactif pour visualiser les tendances météorologiques sur une décennie, en utilisant des outils comme Tableau et Python.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="section" data-category="skills">
+            <div class="section-header">
+                <h2>Compétences</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Compétences Techniques</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">R,Python & SCALA</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MS SQL Server,Oracle</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Windows & Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Langues</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">Français</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Anglais</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">Communication</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 97%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Travail d'équipe</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="section" data-category="projects">
+            <div class="section-header">
+                <h2>Mission effectuées</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Sierre Leone</div>
+                        <div class="entry-date">2013 à 2019</div>
+                    </div>
+                    <div class="entry-content">
+                        <p>Visite régulière, des déploiement et migration logiciel des opérations et infrastructure (VSAT, Migration Serveur et poste client, téléphonique Avaya, etc…)</p>
+                        <ul>
+                            <li>VMware vSphere :Virtualisation des serveurs et migration de machines</li>
+                            <li>Kubernetes</li>
+                            <li>rsync : Synchronisation & migration de fichiers</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="entry">
+                    <div class="entry-header">
+                        <div class="entry-title">Burkina Faso</div>
+                        <div class="entry-date">2013 à 2019</div>
+                    </div>
+                    <div class="entry-content">
+                        <p>Visite régulière, des déploiement et migration logiciel des opérations et infrastructure (VSAT, Migration Serveur et poste client, téléphonique Avaya, etc…)</p>
+                        <ul>
+                            <li>VMware vSphere :Virtualisation des serveurs et migration de machines</li>
+                            <li>AWS Database Migration Service (DMS) : Migration de bases de données</li>
+                            <li>Terraform : Gestion de l'infrastructure as code (IaC)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="interests" class="section" data-category="interests">
+            <div class="section-header">
+                <h2>Centres d'intérêt</h2>
+                <button class="toggle-button" aria-label="Toggle section">🔽</button>
+            </div>
+            <div class="section-content">
+                <div class="interests">
+                    <div class="interest-item">Voyage</div>
+                    <div class="interest-item">Photographie</div>
+                    <div class="interest-item">Lecture</div>
+                    <div class="interest-item">Randonnée</div>
+                    <div class="interest-item">Technologies</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 Jean-Michel DOUAMPO- CV resumé</p>
+        <a href="#" class="download-button" id="print-button">Imprimer cette version</a>
+    </footer>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const sections = document.querySelectorAll('.section');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                
+                // Show/hide sections based on filter
+                sections.forEach(section => {
+                    if (filter === 'all' || section.getAttribute('data-category') === filter) {
+                        section.classList.remove('hidden');
+                    } else {
+                        section.classList.add('hidden');
+                    }
+                });
+            });
+        });
+        
+        // Toggle section content
+        const toggleButtons = document.querySelectorAll('.toggle-button');
+        
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const sectionContent = button.parentElement.nextElementSibling;
+                
+                if (sectionContent.style.display === 'none') {
+                    sectionContent.style.display = 'block';
+                    button.textContent = '🔽';
+                } else {
+                    sectionContent.style.display = 'none';
+                    button.textContent = '▶️';
+                }
+            });
+        });
+        
+        // Print functionality
+        const printButton = document.getElementById('print-button');
+        
+        printButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            
+            // Show all sections before printing
+            sections.forEach(section => {
+                section.classList.remove('hidden');
+                const sectionContent = section.querySelector('.section-content');
+                if (sectionContent) {
+                    sectionContent.style.display = 'block';
+                }
+            });
+            
+            window.print();
+        });
+    });
+</script>
+```
